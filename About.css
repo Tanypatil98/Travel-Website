@@ -1,0 +1,182 @@
+.navbar{
+  background-color: #009900;
+  background-image: linear-gradient(to right,#009900, #009900, #009900, #ededed);
+   border-color: blue;
+    border: 1px solid; 
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+h4
+{
+    font-family: fantasy;
+    font-weight: bold;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 8px #FF0000;
+  cursor: pointer;
+    transition: 1s;
+}
+
+h4:hover{
+    transform: scale(1.1);
+}
+
+body
+{
+  margin: 50px;
+  padding: 20px;
+  
+  /* make it look decent enough */
+  
+  
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+.tab{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-color: blue;
+    border: 1px solid; 
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-color: #d3d3d3;
+    background-image: linear-gradient(to right,#d3d3d3, #d3d3d3, #d3d3d3, #ededed);
+}
+.tab1{
+  background-color: #009900;
+  background-image: linear-gradient(to right,#009900, #009900, #009900, #ededed);
+  margin-top: -1px;
+  margin-bottom: 25px;
+  border-color: blue;
+    border: 1px solid; 
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 30px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 5px;
+}
+h3{
+  margin-left: 50px;
+  padding-left: 160px; 
+}
+header{
+  margin-top: 10px;
+  margin-bottom: 10px;
+	width: 380px;
+	height: 58px;
+	
+}
+
+h1
+{
+    font-family: fantasy;
+	color: blue;
+	text-align: center;
+  text-shadow: 2px 2px 8px #FF0000;
+	cursor: pointer;
+    transition: 1s;
+}
+
+h1:hover{
+    transform: scale(1.1);
+}
+.image{
+  width: 200px;
+  height: 200px;
+  border:2px solid;
+  box-shadow: 5px 10px 8px 10px #888888;
+  cursor: pointer;
+    transition: 1s;
+
+}
+.image:hover{
+  transform: scale(1.1);
+}
+p{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #f1f1f1;
+  margin: 5px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+.btn i{
+  line-height: 20px;
+  font-size: 20px;
+  transition: 0.2s linear;
+}
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -90%;
+  top: 80%;
+}
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa{
+  0%{
+      left: -110%;
+       top: 90%;
+    }50%{
+      left: 10%;
+      top: -30%;
+      }100%{
+          left: -10%;
+          top: -10%;
+      }
+}
+.t{
+  height: 100%;
+  width: 100%;
+}
+footer{
+  margin-top: 25px;
+
+  justify-content: center;
+  align-items: center;
+  border-color: blue;
+    border: 1px solid; 
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-color: #009900;
+    background-image: linear-gradient(to right,#009900, #009900, #009900, #ededed);
+}
