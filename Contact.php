@@ -6,7 +6,7 @@
 			require 'credential.php';
 
 			$mail = new PHPMailer;
-			$to='aksh12354@gmail.com';
+			$to='travel_email';
 			 //$mail->SMTPDebug = 4;                               // Enable verbose debug output
 
 			$mail->isSMTP();                                      // Set mailer to use SMTP
